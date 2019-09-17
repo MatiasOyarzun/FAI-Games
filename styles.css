@@ -1,11 +1,13 @@
 /* Permite que al  hacer saltos de pagina sea mas suave y no tan brusco */
 html {
 	scroll-behavior: smooth !important;
+	overflow-x: hidden;
 }
 
 /* Color del body de la pagina */
 body{
-    background-color: white;
+	background-color: white;
+	overflow-x: hidden;
 }
 
 /* Estructura para sections */
@@ -17,7 +19,13 @@ section{
 #container{
   font-family: 'Bowlby One SC', cursive;
   position: relative;
-  background-color: ##e0e0e0;
+  background-color: white;
+}
+
+/* Sobreescribo paddings y margin sobre las clases de bootstrap */
+div.row {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
 }
 
 /* Definir color de las letras del menu */
@@ -308,6 +316,7 @@ hr {
 #juegoMario {
 	height: 13.1em !important;
 }
+
 
 /* Media query cuando la pantalla supera cierto tamaño de pixeles */
 @media screen and (max-device-width: 980px){

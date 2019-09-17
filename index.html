@@ -17,6 +17,10 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Telex&display=swap" rel="stylesheet">
+    <!-- AOS effects -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <!-- Cuerpo de la pagina -->
@@ -71,8 +75,8 @@
       <div class="page-container col-lg-12 justify-content-lg-center">
         <!-- Foto de fondo del inicio de la pagina -->
         <section class="background">
-          <img src="img/fai.png" alt="Logo pagina"><br>
-          <p class="letra-pie">Pagina sobre videojuegos para laboratorio de programacion.</p>
+          <img data-aos="zoom-in" data-aos-delay="150" src="img/fai.png" alt="Logo pagina"><br>
+          <p data-aos="zoom-in" data-aos-delay="150" class="letra-pie">Pagina sobre videojuegos para laboratorio de programacion.</p>
         </section>
         <!-- Fin foto de fondo del inicio de la pagina -->
 
@@ -81,14 +85,14 @@
           <hr id="sec-news">
           <div class="br-secciones"></div>
           <!-- Encabezado noticias -->
-          <h1 class="section-news" >Ultimas Noticias</h1>
+          <h1 data-aos="zoom-out-up" data-aos-delay="100" class="section-news" >Ultimas Noticias</h1>
           <!-- Seccion donde se encuentran las noticias -->
           <section>
             <div class="row justify-content-center">
               <div class="col-lg-9 col-md-12">
                 <div class="row justify-content-center text-center">
                   <!-- Noticia 1 -->
-                  <div class="prueba col-lg-4 col-md-12 mb-4">
+                  <div data-aos="flip-left" data-aos-delay="100" class="prueba col-lg-4 col-md-12 mb-4">
                     <div class="card">
                       <div class="card-body d-flex flex-column justify-content-center align-items-center">
                         <img id="juegoMario" class="card-img-top" src="img/caratula-mario.png" alt="Imagen juego 1">
@@ -100,7 +104,7 @@
                   <!-- Fin noticia 1 -->
 
                   <!-- Noticia 2 -->
-                  <div class="prueba col-lg-4 col-md-12 mb-4">
+                  <div data-aos="flip-right" data-aos-delay="100" class="prueba col-lg-4 col-md-12 mb-4">
                     <div class="card">
                       <div class="card-body d-flex flex-column justify-content-center align-items-center">
                         <img class="card-img-top" src="img/ancestors.jpg" alt="Imagen juego 2">
@@ -112,7 +116,7 @@
                   <!-- Fin noticia 2 -->
 
                   <!-- Noticia 3 -->
-                  <div class="prueba col-lg-4 col-md-12 mb-4">
+                  <div data-aos="flip-left" data-aos-delay="100" class="prueba col-lg-4 col-md-12 mb-4">
                     <div class="card">
                       <div class="card-body d-flex flex-column justify-content-center align-items-center">
                         <img class="card-img-top" src="img/cyberpunk.png" alt="Imagen juego 3">
@@ -178,7 +182,7 @@
           <hr id="sec-miniGame">
           <div class="br-secciones"></div>
           <!-- Encabezado minijuegos -->
-          <h2 class="section-news" >MiniJuegos</h2>
+          <h2 data-aos="zoom-out-up" data-aos-delay="100" class="section-news" >MiniJuegos</h2>
           <div class="row justify-content-center">
             <!-- Carrusel de minijuegos -->
             <div id="carouselExampleIndicators" class="carousel slide col-lg-7 col-md-12" data-interval="false" data-ride="carousel">
@@ -190,7 +194,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
               </ol>
               <!-- Contenedor de cada imagen del carrusel -->
-              <div class="carousel-game carousel-inner">
+              <div data-aos="zoom-in-up" class="carousel-game carousel-inner">
                 <!-- Primer minijuego -->
                 <div class="carousel-item active">
                   <img class="game" src="img/gauchos.png" alt="First slide">
@@ -289,7 +293,7 @@
           <hr id="sec-Esports" >
           <div class="br-secciones"></div>
           <!-- Encabezado esports -->
-          <h3 class="section-news">ESports</h3>
+          <h3 data-aos="zoom-out-up" data-aos-delay="100" class="section-news">ESports</h3>
           <!-- Seccion de esports -->
           <div class="row justify-content-center esports">
             <!-- Opciones solapas de esports -->
@@ -311,9 +315,9 @@
               <!-- Contenido primer solapa -->
               <div class="tab-pane fade show active" id="lol" role="tabpanel" aria-labelledby="lol-tab">
                 <!-- Encabezado de juego esports -->
-                <h4 class="section-esports" >League Of Legends</h4>
+                <h4 data-aos="zoom-out-up" data-aos-delay="100" class="section-esports" >League Of Legends</h4>
                 <div class="row col-lg-12">
-                  <div class="container-imgGame col-lg-6 col-md-12">
+                  <div data-aos="flip-down" data-aos-delay="150" class="container-imgGame col-lg-6 col-md-12">
                     <!-- Link a juego esports -->
                     <a target="_blank" href="https://esports.as.com/league-of-legends/">
                     <p class="text-new-esports">LoL Esports</p>
@@ -323,12 +327,12 @@
                       <p class="centered-text">League of Legends es un videojuego del género multijugador de arena de batalla en línea y deporte electrónico el cual fue desarrollado por Riot Games.</p>
                     </a>
                   </div>
-                  <div class="col-lg-6">
+                  <div data-aos="flip-up" data-aos-delay="150" class="col-lg-6">
                     <!-- Trailer/Cinematicas juego esports -->
                     <p class="text-new-esports">Trailer/Cinematica</p>
-                    <iframe title="Iframe Example" class="trailer col-lg-12" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Iframe Example" class="trailer col-lg-12" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
                   </div>
-                  <div class="news-esports col-lg-9 col-md-12 container text-center my-3">
+                  <div data-aos="zoom-out-up" data-aos-delay="100" class="news-esports col-lg-9 col-md-12 container text-center my-3">
                       <p class="text-new-esports">Ultimas Noticias ESports</p>
                       <!-- Seccion de ultimas noticias de LoL -->
                       <div id="recipeCarousel" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">

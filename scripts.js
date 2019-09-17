@@ -86,3 +86,4 @@ function crearJuego(juego){
     return iframe;
 }
 
+AOS.init();

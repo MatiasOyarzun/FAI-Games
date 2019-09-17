@@ -44,8 +44,14 @@ li.active{
 }
 
 /* Propiedades definidas sobre el carrusel */
-.carousel-game .active{
+.carousel-game .active {
 	background-color: black!important;
+}
+
+/* Propiedades definidas sobre el carrusel de juegos */
+.carousel-game {
+	border-radius: 10px;
+	border: 5px solid;
 }
 
 /* Propiedades definidas sobre el contenedor de la pagina */

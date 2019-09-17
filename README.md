@@ -1,2 +1,1 @@
-# FAI-Games
-Autores: Chavez Rodrigo & Oyarzun Matias
+# chavezpochi.github.io

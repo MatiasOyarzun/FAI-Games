@@ -2,7 +2,7 @@
 
 Pagina para Laboratorio de Programacion hecha por Chavez Rodrigo & Oyarzun Matias. 
 
-[FAI-Games](https://matiasoyarzun.github.io/FAI-Games-only_HTML-CSS/) es una pagina dedicada a novedades, torneos, y noticias sobre lo ultimo en videojuegos. Tambien podras disfrutar de minijuegos durante el recorrido de esta.
+[FAI-Games](https://matiasoyarzun.github.io/FAI-Games) es una pagina dedicada a novedades, torneos, y noticias sobre lo ultimo en videojuegos. Tambien podras disfrutar de minijuegos durante el recorrido de esta.
 
 * Index
   * Menu

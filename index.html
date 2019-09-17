@@ -79,7 +79,7 @@
         <!-- Contenedor de las noticias -->
         <section class="container-news">
           <hr id="sec-news">
-          <br><br><br>
+          <div class="br-secciones"></div>
           <!-- Encabezado noticias -->
           <h1 class="section-news" >Ultimas Noticias</h1>
           <!-- Seccion donde se encuentran las noticias -->
@@ -91,9 +91,9 @@
                   <div class="prueba col-lg-4 col-md-12 mb-4">
                     <div class="card">
                       <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img class="card-img-top" src="img/fifa.jpg" alt="Imagen juego 1">
-                        <p class="card-text">FIFA2020: para PC te muestra las dos caras del deporte rey: la prestigiosa competición profesional y el fútbol callejero más auténtico en la nueva experiencia EA SPORTS VOLTA.</p>
-                        <a target="_blank" href="https://www.ea.com/es-mx/games/fifa/fifa-20" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 1</p></a>
+                        <img id="juegoMario" class="card-img-top" src="img/caratula-mario.png" alt="Imagen juego 1">
+                        <p class="card-text">Ayuda a nuestros 3 heroes a cumplir su deber mediante extraordinarios niveles lleno de desafios. Desarrollado por Mario Sepulveda, estudiante de LSI de la UNCO</p>
+                        <a target="_blank" href="https://pathofthehero.itch.io/fatum-of-redemptionem" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 1</p></a>
                       </div>
                     </div>
                   </div>
@@ -129,9 +129,9 @@
                     <div class="prueba col-lg-4 col-md-12 mb-4">
                       <div class="card">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                          <img class="card-img-top" src="http://placehold.it/700x400" alt="Imagen juego 4">
-                          <p class="card-text">Don't like that typical Bootstrap look? Each theme has a custom look-and-feel, while maximizing use of Bootstrap without extensive additional CSS &amp; JS.</p>
-                          <a href="#" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 4</p></a>
+                          <img class="card-img-top" src="img/gears.jpg" alt="Imagen juego 4">
+                          <p class="card-text">Llega Gears, con cinco fantásticos modos de juego y la campaña más profunda hasta la fecha. En medio de una guerra sin cuartel, Kait Diaz se marcha para desentrañar su conexión con el enemigo y descubrir la auténtica amenaza para Sera: ella misma.</p>
+                          <a target="_blank" href="https://www.gears5.com/es-es" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 4</p></a>
                         </div>
                       </div>
                     </div>
@@ -141,9 +141,9 @@
                     <div class="prueba col-lg-4 col-md-12 mb-4">
                       <div class="card">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                          <img class="card-img-top" src="http://placehold.it/700x400" alt="Imagen juego 5">
-                          <p class="card-text">Don't like that typical Bootstrap look? Each theme has a custom look-and-feel, while maximizing use of Bootstrap without extensive additional CSS &amp; JS.</p>
-                          <a href="#" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 5</p></a>
+                          <img class="card-img-top" src="img/borderlands3.png" alt="Imagen juego 5">
+                          <p class="card-text">¡Vuelve el padre de los shooter-looter, con una aventura llena de caos y tropecientas mil armas! Arrasa a tus enemigos, descubre mundos inéditos y salva tu hogar de la secta más cruel de la galaxia.</p>
+                          <a target="_blank" href="https://borderlands.com/es-ES/" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 5</p></a>
                         </div>
                       </div>
                     </div>
@@ -153,9 +153,9 @@
                     <div class="prueba col-lg-4 col-md-12 mb-4">
                       <div class="card">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                          <img class="card-img-top" src="http://placehold.it/700x400" alt="Imagen juego 6">
-                          <p class="card-text">Don't like that typical Bootstrap look? Each theme has a custom look-and-feel, while maximizing use of Bootstrap without extensive additional CSS &amp; JS.</p>
-                          <a href="#" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 6</p></a>
+                          <img class="card-img-top" src="img/fifa.jpg" alt="Imagen juego 6">
+                          <p class="card-text">FIFA2020: para PC te muestra las dos caras del deporte rey: la prestigiosa competición profesional y el fútbol callejero más auténtico en la nueva experiencia EA SPORTS VOLTA.</p>
+                          <a target="_blank" href="https://www.ea.com/es-mx/games/fifa/fifa-20" class="btn mt-auto col-lg-9 col-md-12">Ver info<p class="parrafoNoticias">Noticia 6</p></a>
                         </div>
                       </div>
                     </div>
@@ -167,7 +167,7 @@
                 <input onclick="return change(this);" value="Ver mas" class="ver-mas btn" type="button" data-toggle="collapse" data-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">
               </div>
             </div>
-          <br><br><br><br>
+          <div class="br-secciones"></div>
           </section>
           <!-- Fin seccion donde se encuentran las noticias -->
         </section>
@@ -175,7 +175,8 @@
 
         <!-- Contenedor juegos -->
         <section class="container-100vh col-lg-12 col-md-12">
-          <hr id="sec-miniGame"><br><br><br>
+          <hr id="sec-miniGame">
+          <div class="br-secciones"></div>
           <!-- Encabezado minijuegos -->
           <h2 class="section-news" >MiniJuegos</h2>
           <div class="row justify-content-center">
@@ -284,10 +285,11 @@
         <!-- Fin contenedor juegos -->
 
         <!-- Contenedor esports -->
-        <section class="container-100vh col-lg-12 col-md-12">
-          <hr id="sec-Esports" ><br><br><br>
+        <section class="col-lg-12 col-md-12 text-center section-esports-game">
+          <hr id="sec-Esports" >
+          <div class="br-secciones"></div>
           <!-- Encabezado esports -->
-          <h3 class="section-news" >ESports</h3>
+          <h3 class="section-news">ESports</h3>
           <!-- Seccion de esports -->
           <div class="row justify-content-center esports">
             <!-- Opciones solapas de esports -->
@@ -311,9 +313,10 @@
                 <!-- Encabezado de juego esports -->
                 <h4 class="section-esports" >League Of Legends</h4>
                 <div class="row col-lg-12">
-                  <div class="container-imgGame col-lg-6 col-md-12 mb-5">
+                  <div class="container-imgGame col-lg-6 col-md-12">
                     <!-- Link a juego esports -->
                     <a target="_blank" href="https://esports.as.com/league-of-legends/">
+                    <p class="text-new-esports">LoL Esports</p>
                       <!-- Imagen juego esports -->
                       <img class="img-esports col-lg-12" src="img/lol.jpg" alt="imagen lol">
                       <!-- Info juego esports -->
@@ -322,68 +325,68 @@
                   </div>
                   <div class="col-lg-6">
                     <!-- Trailer/Cinematicas juego esports -->
-                    <p>Trailer/Cinematica</p>
-                    <iframe title="Iframe Example" class="trailer col-lg-6" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="col-lg-9 col-md-12 container text-center my-3">
-                        <p>Ultimas Noticias ESports</p>
-                        <!-- Seccion de ultimas noticias de LoL -->
-                        <div id="recipeCarousel" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
-                            <!-- Carrusel de ultimas noticias LoL -->
-                            <div class="carousel-inner w-100" role="listbox">
-                              <!-- Primer slide carrusel LoL -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters active">
-                                    <div class="col-6 col-md-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/league-of-legends/Noa-incorpora-equipo-retransmision-LVP_0_1279672021.html">
-                                        <img class="img-fluid" src="img/noticia1Lol.jpg" alt="noticia lol 1">
-                                      </a>
-                                      <p class="text-new-esports">Noa se incorpora al equipo de transmisión de la LVP</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/league-of-legends/nuevas-camisetas-Nike-LPL_3_1281201868.html">
-                                        <img class="img-fluid" src="img/noticias2Lol.jpg" alt="noticia lol 2">
-                                      </a>
-                                      <p class="text-new-esports">Las nuevas camisetas Nike de la LPL</p>
-                                    </div>
-                                </div>
-                                <!-- Fin primer slide carrusel LoL-->
+                    <p class="text-new-esports">Trailer/Cinematica</p>
+                    <iframe title="Iframe Example" class="trailer col-lg-12" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="news-esports col-lg-9 col-md-12 container text-center my-3">
+                      <p class="text-new-esports">Ultimas Noticias ESports</p>
+                      <!-- Seccion de ultimas noticias de LoL -->
+                      <div id="recipeCarousel" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
+                          <!-- Carrusel de ultimas noticias LoL -->
+                          <div class="carousel-inner w-100" role="listbox">
+                            <!-- Primer slide carrusel LoL -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters active">
+                                  <div class="col-6 col-md-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/league-of-legends/Noa-incorpora-equipo-retransmision-LVP_0_1279672021.html">
+                                      <img class="img-fluid" src="img/noticia1Lol.jpg" alt="noticia lol 1">
+                                    </a>
+                                    <p class="text-new-esports">Noa se incorpora al equipo de transmisión de la LVP</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/league-of-legends/nuevas-camisetas-Nike-LPL_3_1281201868.html">
+                                      <img class="img-fluid" src="img/noticias2Lol.jpg" alt="noticia lol 2">
+                                    </a>
+                                    <p class="text-new-esports">Las nuevas camisetas Nike de la LPL</p>
+                                  </div>
+                              </div>
+                              <!-- Fin primer slide carrusel LoL-->
 
-                                <!-- Segundo slide carrusel LoL -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters">
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/league-of-legends/Yasuo-campeon-odiado-SoloQ_0_1281771812.html">
-                                        <img class="img-fluid" src="img/noticia3Lol.jpg" alt="noticia lol 3">
-                                      </a>
-                                      <p class="text-new-esports">Yasuo ya no es el campeón más odiado en SoloQ</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/league-of-legends/Conoce-representaran-Europa-Mundiales-LoL_0_1282371752.html">
-                                        <img class="img-fluid" src="img/noticia4Lol.jpg" alt="noticia lol 4">
-                                      </a>
-                                       <p class="text-new-esports">Teams que representarán a Europa en los Mundiales de LoL</p>
-                                    </div>
-                                </div>
-                                <!-- Fin segundo slide carrusel LoL-->
-                            </div>
-                            <!-- Fin carrusel ultimas noticias LoL -->
+                              <!-- Segundo slide carrusel LoL -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters">
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/league-of-legends/Yasuo-campeon-odiado-SoloQ_0_1281771812.html">
+                                      <img class="img-fluid" src="img/noticia3Lol.jpg" alt="noticia lol 3">
+                                    </a>
+                                    <p class="text-new-esports">Yasuo ya no es el campeón más odiado en SoloQ</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/league-of-legends/Conoce-representaran-Europa-Mundiales-LoL_0_1282371752.html">
+                                      <img class="img-fluid" src="img/noticia4Lol.jpg" alt="noticia lol 4">
+                                    </a>
+                                     <p class="text-new-esports">Teams que representarán a Europa en los Mundiales de LoL</p>
+                                  </div>
+                              </div>
+                              <!-- Fin segundo slide carrusel LoL-->
+                          </div>
+                          <!-- Fin carrusel ultimas noticias LoL -->
 
-                            <!-- Boton para retroceder en el carrusel LoL -->
-                            <a class="control carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                                <p class="parrafoEsports">Retroceder carrusel esports 1</p>
-                            </a>
-                            <!-- Fin boton para retroceder del carrusel LoL -->
+                          <!-- Boton para retroceder en el carrusel LoL -->
+                          <a class="control carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                              <p class="parrafoEsports">Retroceder carrusel esports 1</p>
+                          </a>
+                          <!-- Fin boton para retroceder del carrusel LoL -->
 
-                            <!-- Boton para avanzar en el carrusel LoL -->
-                            <a class="control carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                                <p class="parrafoEsports">Avanzar carrusel esports 1</p>
-                            </a>
-                            <!-- Fin boton para avanzar en el carrusel LoL -->
-                        </div>
-                        <!-- Fin seccion de ultimas noticias LoL -->
-                    </div>
+                          <!-- Boton para avanzar en el carrusel LoL -->
+                          <a class="control carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                              <p class="parrafoEsports">Avanzar carrusel esports 1</p>
+                          </a>
+                          <!-- Fin boton para avanzar en el carrusel LoL -->
+                      </div>
+                      <!-- Fin seccion de ultimas noticias LoL -->
                   </div>
                 </div>
               </div>
@@ -397,6 +400,7 @@
                   <div class="container-imgGame col-lg-6 col-md-12 mb-3">
                     <!-- Link a juego esports -->
                     <a target="_blank" href="https://esports.as.com/fortnite/">
+                      <p class="text-new-esports">Fornite Esports</p>
                     <!-- Imagen juego esports -->
                     <img class="img-esports col-lg-12" src="img/fornite.jpg" alt="imagen fornite">
                     <!-- Info juego esports -->
@@ -405,69 +409,70 @@
                   </div>
                   <div class="col-lg-6">
                     <!-- Trailer/Cinematicas juego esports -->
-                    <p>Trailer/Cinematica</p>
-                    <iframe title="Iframe Example" class="trailer col-lg-6" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="col-lg-9 container text-center my-3">
-                        <p>Ultimas Noticias ESports</p>
-                        <!-- Seccion ultimas noticias Fornite -->
-                        <div id="recipeCarousel-fornite" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
-                            <!-- Carrusel ultimas noticias Fornite -->
-                            <div class="carousel-inner w-100" role="listbox">
-                                <!-- Primer slide del carrusel de Fornite -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters active">
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/fortnite/Ninja-podria-propios-cosmeticos-Fortnite_0_1280271964.html">
-                                        <img class="img-fluid" src="img/noticia1For.jpg" alt="noticia Fornite 1">
-                                      </a>
-                                      <p class="text-new-esports">Ninja podría tener sus propios cosméticos en Fortnite</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/league-of-legends/nuevas-camisetas-Nike-LPL_3_1281201868.html">
-                                        <img class="img-fluid" src="img/noticia2For.jpg" alt="noticia Fornite 2">
-                                      </a>
-                                      <p class="text-new-esports">Reporta a un hacker en directo y lo banean al instante</p>
-                                    </div>
-                                </div>
-                                <!-- Fin primer slide del carrusel de Fornite -->
-
-                                <!-- Segundo slide del carrusel de Fornite -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters">
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/fortnite/copia-descarada-Fortnite-moviles_0_1279672032.html">
-                                        <img class="img-fluid" src="img/noticia3For.jpg" alt="noticia Fornite 3">
-                                      </a>
-                                      <p class="text-new-esports">La copia más descarada de Fortnite para móviles</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/fortnite/Top-jugadores-ganancias-Fortnite_3_1278502138.html">
-                                        <img class="img-fluid" src="img/noticia4For.jpg" alt="noticia Fornite 4">
-                                      </a>
-                                       <p class="text-new-esports">Top 10 jugadores con más ganancias en Fortnite</p>
-                                    </div>
-                                </div>
-                                <!-- Fin segundo slide del carrusel de Fornite -->
-                            </div>
-                            <!-- Fin carrusel ultimas noticias Fornite -->
-
-                            <!-- Boton para retroceder en el carrusel de Fornite -->
-                            <a class="control carousel-control-prev" href="#recipeCarousel-fornite" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                                <p class="parrafoEsports">Retroceder carrusel esports 2</p>
-                            </a>
-                            <!-- Fin boton para retrodecer en el carrusel de Fornite -->
-
-                            <!-- Boton para avanzar en el carrusel de Fornite -->
-                            <a class="control carousel-control-next" href="#recipeCarousel-fornite" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                                <p class="parrafoEsports">Avanzar carrusel esports 2</p>
-                            </a>
-                            <!-- Fin boton para avanzar en el carrusel de Fornite -->
-                        </div>
-                        <!-- Fin seccion ultimas noticias Fornite -->
-                    </div>
+                    <p class="text-new-esports">Trailer/Cinematica</p>
+                    <iframe title="Iframe Example" class="trailer col-lg-12" src="https://www.youtube.com/embed/2rUt9qxohRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
+                  <div class="col-lg-9 col-md-12 container text-center">
+                      <p class="text-new-esports">Ultimas Noticias ESports</p>
+                      <!-- Seccion ultimas noticias Fornite -->
+                      <div id="recipeCarousel-fornite" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
+                          <!-- Carrusel ultimas noticias Fornite -->
+                          <div class="carousel-inner w-100" role="listbox">
+                              <!-- Primer slide del carrusel de Fornite -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters active">
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/fortnite/Ninja-podria-propios-cosmeticos-Fortnite_0_1280271964.html">
+                                      <img class="img-fluid" src="img/noticia1For.jpg" alt="noticia Fornite 1">
+                                    </a>
+                                    <p class="text-new-esports">Ninja podría tener sus propios cosméticos en Fortnite</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/league-of-legends/nuevas-camisetas-Nike-LPL_3_1281201868.html">
+                                      <img class="img-fluid" src="img/noticia2For.jpg" alt="noticia Fornite 2">
+                                    </a>
+                                    <p class="text-new-esports">Reporta a un hacker en directo y lo banean al instante</p>
+                                  </div>
+                              </div>
+                              <!-- Fin primer slide del carrusel de Fornite -->
+
+                              <!-- Segundo slide del carrusel de Fornite -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters">
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/fortnite/copia-descarada-Fortnite-moviles_0_1279672032.html">
+                                      <img class="img-fluid" src="img/noticia3For.jpg" alt="noticia Fornite 3">
+                                    </a>
+                                    <p class="text-new-esports">La copia más descarada de Fortnite para móviles</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/fortnite/Top-jugadores-ganancias-Fortnite_3_1278502138.html">
+                                      <img class="img-fluid" src="img/noticia4For.jpg" alt="noticia Fornite 4">
+                                    </a>
+                                     <p class="text-new-esports">Top 10 jugadores con más ganancias en Fortnite</p>
+                                  </div>
+                              </div>
+                              <!-- Fin segundo slide del carrusel de Fornite -->
+                          </div>
+                          <!-- Fin carrusel ultimas noticias Fornite -->
+
+                          <!-- Boton para retroceder en el carrusel de Fornite -->
+                          <a class="control carousel-control-prev" href="#recipeCarousel-fornite" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                              <p class="parrafoEsports">Retroceder carrusel esports 2</p>
+                          </a>
+                          <!-- Fin boton para retrodecer en el carrusel de Fornite -->
+
+                          <!-- Boton para avanzar en el carrusel de Fornite -->
+                          <a class="control carousel-control-next" href="#recipeCarousel-fornite" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                              <p class="parrafoEsports">Avanzar carrusel esports 2</p>
+                          </a>
+                          <!-- Fin boton para avanzar en el carrusel de Fornite -->
+                      </div>
+                      <!-- Fin seccion ultimas noticias Fornite -->
+                  </div>
+
                 </div>
                 <!-- Fin imagen juego esports -->
               </div>
@@ -480,7 +485,8 @@
                 <div class="row col-lg-12">
                   <div class="container-imgGame col-lg-6 col-md-12 mb-3">
                     <!-- Link a juego esports -->
-                    <a href="https://esports.as.com/counter-strike--global-offensive/">
+                    <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/">
+                      <p class="text-new-esports">CS:GO Esports</p>
                     <!-- Imagen juego esports -->
                     <img class="img-esports col-lg-12" src="img/csgo.jpg" alt="imagen Csgo">
                     <!-- Info juego esports -->
@@ -489,68 +495,68 @@
                   </div>
                   <div class="col-lg-6">
                     <!-- Trailer/Cinematicas juego esports -->
-                    <p>Trailer/Cinematica</p>
-                    <iframe title="Iframe Example" class="trailer col-lg-6" src="https://www.youtube.com/embed/bhPTBy2ekN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="col-lg-9 container text-center my-3">
-                        <p>Ultimas Noticias ESports</p>
-                        <!-- Seccion ultimas noticias CSGO -->
-                        <div id="recipeCarousel-csgo" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
-                            <!-- Carrusel ultimas noticias CSGO -->
-                            <div class="carousel-inner w-100" role="listbox">
-                                <!-- Primer slide del carrusel de CSGO -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters active">
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/jugadores-dinero-ganado-CSGO_3_1280601930.html">
-                                        <img class="img-fluid" src="img/noticia1Csgo.jpg" alt="noticia CSgo 1">
-                                      </a>
-                                      <p class="text-new-esports">Los diez jugadores que más dinero han ganado en CS:GO</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/presidente-Brasil-jugador-CSGO-impuestos_0_1268573132.html">
-                                        <img class="img-fluid" src="img/noticia2Csgo.jpg" alt="noticia CSgo 2">
-                                      </a>
-                                      <p class="text-new-esports">El presidente de Brasil llama a un jugador de CS:GO para debatir sobre impuestos</p>
-                                    </div>
-                                </div>
-                                <!-- Fin primer slide del carrusel de CSGO -->
+                    <p class="text-new-esports">Trailer/Cinematica</p>
+                    <iframe title="Iframe Example" class="trailer col-lg-12" src="https://www.youtube.com/embed/edYCtaNueQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-lg-9 col-md-12 container text-center my-3">
+                      <p class="text-new-esports">Ultimas Noticias ESports</p>
+                      <!-- Seccion ultimas noticias CSGO -->
+                      <div id="recipeCarousel-csgo" class="carousel slide w-100 carousel-esports" data-interval="false" data-ride="carousel">
+                          <!-- Carrusel ultimas noticias CSGO -->
+                          <div class="carousel-inner w-100" role="listbox">
+                              <!-- Primer slide del carrusel de CSGO -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters active">
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/jugadores-dinero-ganado-CSGO_3_1280601930.html">
+                                      <img class="img-fluid" src="img/noticia1Csgo.jpg" alt="noticia CSgo 1">
+                                    </a>
+                                    <p class="text-new-esports">Los diez jugadores que más dinero han ganado en CS:GO</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/presidente-Brasil-jugador-CSGO-impuestos_0_1268573132.html">
+                                      <img class="img-fluid" src="img/noticia2Csgo.jpg" alt="noticia CSgo 2">
+                                    </a>
+                                    <p class="text-new-esports">El presidente de Brasil llama a un jugador de CS:GO para debatir sobre impuestos</p>
+                                  </div>
+                              </div>
+                              <!-- Fin primer slide del carrusel de CSGO -->
 
-                                <!-- Segundo slide del carrusel de CSGO -->
-                                <div class="carousel-Noticias-esports carousel-item row no-gutters">
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/Polemica-nueva-norma-Major_0_1261073882.html">
-                                        <img class="img-fluid" src="img/noticia3Csgo.jpg" alt="noticia CSgo 3">
-                                      </a>
-                                      <p class="text-new-esports">'Polémica' con la nueva norma para el Major</p>
-                                    </div>
-                                    <div class="col-6 float-left">
-                                      <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/Mixwell-ficha-Cloud9_0_1259874016.html">
-                                        <img class="img-fluid" src="img/noticia4Csgo.jpg" alt="noticia CSgo 4">
-                                      </a>
-                                       <p class="text-new-esports">Mixwell ficha por Cloud9</p>
-                                    </div>
-                                </div>
-                                <!-- Fin segundo slide del carrusel de CSGO -->
-                            </div>
-                            <!-- Fin carrusel ultimas noticias CSGO -->
+                              <!-- Segundo slide del carrusel de CSGO -->
+                              <div class="carousel-Noticias-esports carousel-item row no-gutters">
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/Polemica-nueva-norma-Major_0_1261073882.html">
+                                      <img class="img-fluid" src="img/noticia3Csgo.jpg" alt="noticia CSgo 3">
+                                    </a>
+                                    <p class="text-new-esports">'Polémica' con la nueva norma para el Major</p>
+                                  </div>
+                                  <div class="col-6 float-left">
+                                    <a target="_blank" href="https://esports.as.com/counter-strike--global-offensive/Mixwell-ficha-Cloud9_0_1259874016.html">
+                                      <img class="img-fluid" src="img/noticia4Csgo.jpg" alt="noticia CSgo 4">
+                                    </a>
+                                     <p class="text-new-esports">Mixwell ficha por Cloud9</p>
+                                  </div>
+                              </div>
+                              <!-- Fin segundo slide del carrusel de CSGO -->
+                          </div>
+                          <!-- Fin carrusel ultimas noticias CSGO -->
 
-                            <!-- Boton para retroceder en el carrusel de CSGO -->
-                            <a class="control carousel-control-prev" href="#recipeCarousel-csgo" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                                <p class="parrafoEsports">Retroceder carrusel esports 3</p>
-                            </a>
-                            <!-- Fin boton para retroceder en el carrusel de CSGO -->
+                          <!-- Boton para retroceder en el carrusel de CSGO -->
+                          <a class="control carousel-control-prev" href="#recipeCarousel-csgo" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                              <p class="parrafoEsports">Retroceder carrusel esports 3</p>
+                          </a>
+                          <!-- Fin boton para retroceder en el carrusel de CSGO -->
 
-                            <!-- Boton para avanzar en el carrusel de CSGO -->
-                            <a class="control carousel-control-next" href="#recipeCarousel-csgo" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                                <p class="parrafoEsports">Avanzar carrusel esports 3</p>
-                            </a>
-                            <!-- Fin boton para avanzar en el carrusel de CSGO -->
-                        </div>
-                        <!-- Fin seccion ultimas noticias CSGO -->
-                    </div>
+                          <!-- Boton para avanzar en el carrusel de CSGO -->
+                          <a class="control carousel-control-next" href="#recipeCarousel-csgo" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                              <p class="parrafoEsports">Avanzar carrusel esports 3</p>
+                          </a>
+                          <!-- Fin boton para avanzar en el carrusel de CSGO -->
+                      </div>
+                      <!-- Fin seccion ultimas noticias CSGO -->
                   </div>
                 </div>
                 <!-- Fin imagen juego esports -->
@@ -562,6 +568,41 @@
           <!-- Fin seccion esports -->
         </section>
         <!-- Fin contenedor esports -->
+        <div class="br-esports"></div>
+        <!-- Footer -->
+        <footer class="footer col-lg-12 col-md-12 page-footer font-small special-color-dark pt-4">
+          <!-- Elementos del footer -->
+          <div class="">
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/FAI-Facultad-de-Inform%C3%A1tica-UNCo-185003921537235/?fref=ts" class="btn-floating btn-fb mx-1">
+                  <em class="fab fa-facebook-f"><p class="redSocial">FB Footer</p></em>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://twitter.com/faiuncoma" class="btn-floating btn-tw mx-1">
+                  <em class="fab fa-twitter"><p class="redSocial">TW Footer</p></em>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/MatiasOyarzun/FAI-Games" class="btn-floating btn-gplus mx-1">
+                  <em class="fab fa-github"><p class="redSocial">Github Footer</p></em>
+                </a>
+              </li>
+            </ul>
+            <!-- Fin Social buttons -->
+          </div>
+          <!-- Fin elementos footer -->
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright:<br>
+            Autores: Matias Oyarzun & Rodrigo Chavez <br>
+            Los minijuegos son propiedad de:
+            <a href="https://shittygames.itch.io/">Shittygames</a>
+          </div>
+          <!-- Fin Copyright -->
+        </footer>
+        <!-- Fin Footer -->
       </div>
       <!-- Fin contenido de la pagina -->
     </div>
